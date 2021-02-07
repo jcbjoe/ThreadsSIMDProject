@@ -58,11 +58,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Font Include="..\Assets\Fonts\Roboto-Regular.ttf">
-      <Filter>Assets\Fonts</Filter>
-    </Font>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="DinoManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -84,5 +79,10 @@
     <ClInclude Include="Dino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Assets\Fonts\Roboto-Regular.ttf">
+      <Filter>Assets\Fonts</Filter>
+    </Font>
   </ItemGroup>
 </Project>

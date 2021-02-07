@@ -4,7 +4,6 @@
 #include "Grid.h"
 #include "DinoManager.h";
 
-
 class GameManager {
 
 private:
