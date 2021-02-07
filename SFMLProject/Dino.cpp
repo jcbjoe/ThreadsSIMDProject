@@ -66,7 +66,7 @@ void Dino::Update(float dTime) {
 				_currentPathPos = 0;
 				for (auto vec : path) {
 					auto tile = GameManager::GetInstance()->GetGrid()->GetTileAtPos(vec.x, vec.y);
-					if (tile != nullptr) {
+					if (tile != nullptr && tile->GetColour() != sf::Color::Black) {
 						tile->SetColour(sf::Color::Red);
 					}
 				}
@@ -79,7 +79,8 @@ void Dino::Update(float dTime) {
 
 			for (auto vec : _currentPath) {
 				auto tile = GameManager::GetInstance()->GetGrid()->GetTileAtPos(vec.x, vec.y);
-				if (tile != nullptr) {
+				if (tile != nullptr && tile->GetColour() != sf::Color::Black) {
+
 					tile->SetColour(sf::Color::White);
 				}
 			}
