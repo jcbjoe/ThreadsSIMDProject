@@ -1,8 +1,9 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "Config.h"
-#include "DinoManager.h";
 #include "Grid.h"
+#include "DinoManager.h";
+
 
 class GameManager {
 
