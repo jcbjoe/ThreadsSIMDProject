@@ -347,3 +347,8 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+
+
+!SFML-2.5.1/*
+!thor-v2.0-msvc2015/*
+!pthreads/*
