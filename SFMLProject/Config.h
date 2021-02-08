@@ -20,6 +20,6 @@ constexpr unsigned int NUM_THREADS = 4;
 
 constexpr unsigned int GROUP_SIZE = AMOUNTOFDINOS / NUM_THREADS;
 
-constexpr bool IS_THREADED = false;
+constexpr bool IS_THREADED = true;
 
-constexpr int THREADING_UPDATE_METHOD = 2;
+constexpr int THREADING_UPDATE_METHOD = 1;

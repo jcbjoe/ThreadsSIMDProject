@@ -32,6 +32,7 @@ int main()
 	{
 
 		float dTime = clock.restart().asSeconds();
+		std::cout << dTime << std::endl;
 
 		float fps = 1.0 / dTime;
 
