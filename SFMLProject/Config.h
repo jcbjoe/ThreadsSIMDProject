@@ -23,3 +23,5 @@ constexpr unsigned int GROUP_SIZE = AMOUNTOFDINOS / NUM_THREADS;
 constexpr bool IS_THREADED = true;
 
 constexpr int THREADING_UPDATE_METHOD = 1;
+
+constexpr bool USING_SIMD = false;

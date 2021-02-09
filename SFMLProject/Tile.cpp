@@ -1,7 +1,6 @@
 #include "Tile.h"
 #include <iostream>
 #include "GameManager.h"
-#include <nmmintrin.h> // SSE4.2 intrinsics and below
 
 Tile::Tile(int x, int y, sf::Color colour) : _x(x), _y(y), _colour(colour) {
 	_rect.setSize(sf::Vector2f(GRID_WIDTH, GRID_WIDTH));
